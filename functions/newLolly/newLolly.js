@@ -34,7 +34,7 @@ const resolvers = {
 
         console.log("args = ",args);
       
-      const client = new faunadb.Client({secret: "fnAD48mt89ACAUrFzlu-T5O1vMUmBYU8_KLyFEcV"});
+      const client = new faunadb.Client({secret: "fnAD5oxJMbACAYNtm6-lrs0sgxOK63y3xAVYYnhx"});
       const id = shortid.generate();
       args.lollyPath = id
 
